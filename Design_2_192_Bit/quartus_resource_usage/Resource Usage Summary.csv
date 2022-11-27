@@ -1,0 +1,20 @@
+Resource,Usage
+Estimate of Logic utilization (ALMs needed),12147
+,
+Combinational ALUT usage for logic,23236
+    -- 7 input functions,0
+    -- 6 input functions,1022
+    -- 5 input functions,8583
+    -- 4 input functions,3673
+    -- <=3 input functions,9958
+,
+Dedicated logic registers,365
+,
+I/O pins,104
+,
+Total DSP Blocks,0
+,
+Maximum fan-out node,clk~input
+Maximum fan-out,365
+Total fan-out,93817
+Average fan-out,3.94

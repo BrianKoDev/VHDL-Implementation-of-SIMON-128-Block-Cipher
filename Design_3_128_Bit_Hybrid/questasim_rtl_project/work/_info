@@ -1,0 +1,293 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Admin/Desktop/FPGA_NEW/Coursework/Simon_Cipher/Performance_128_Bits/questasim_rtl_project
+T_opt
+!s110 1653940016
+Viz9`4nUIi@AO4WK7EQV_61
+Z2 04 6 2 work hps_tb tb 1
+=1-7c8ae112d5a8-62951f30-268-dfc
+Z3 !s124 OEM10U70 
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1652529241
+VXKSRjOMhAD3f1[IGdeC]o1
+R2
+=1-7c8ae112d5a8-627f9858-334-26d0
+R3
+R4
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1652690972
+Vn9TEo9=lJJoWNDF>M>E@81
+R2
+=1-7c8ae112d5a8-6282101c-e1-40a8
+R3
+R4
+R5
+n@_opt2
+R6
+R1
+Ehps
+Z7 w1652447772
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 31
+Z11 dC:/Users/Admin/Desktop/FPGA/Coursework/Simon_Cipher/Design_3_128_Bit_Hybrid/questasim_rtl_project
+Z12 8hps.vhd
+Z13 Fhps.vhd
+l0
+Z14 L22 1
+VjHWSoU`[]0JY9N?:?OC3l2
+!s100 C[UPIlFQl2KRU65mK]aWH1
+Z15 OL;C;2021.2;73
+32
+Z16 !s110 1654605578
+!i10b 1
+Z17 !s108 1654605578.000000
+Z18 !s90 -reportprogress|300|hps.vhd|
+Z19 !s107 hps.vhd|
+!i113 0
+Z20 tExplicit 1 CvgOpt 0
+Artl
+R8
+R9
+R10
+Z21 DEx4 work 3 hps 0 22 jHWSoU`[]0JY9N?:?OC3l2
+!i122 31
+l65
+L35 127
+VnPJ>A7ZJVAF5_Gm7lemRW1
+!s100 hkiN8DUXC40R6h9JP2fOC2
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+Ehps_tb
+Z22 w1652446748
+R9
+R10
+!i122 32
+R11
+Z23 8hps_tb.vhd
+Z24 Fhps_tb.vhd
+l0
+L16 1
+VE1hYO3Qz3dYlF6_9Jm@7n2
+!s100 zI^^O[4c9B^8KH5K`H:e@3
+R15
+32
+Z25 !s110 1654605579
+!i10b 1
+R17
+Z26 !s90 -reportprogress|300|hps_tb.vhd|
+Z27 !s107 hps_tb.vhd|
+!i113 0
+R20
+Atb
+R8
+R21
+R9
+R10
+Z28 DEx4 work 6 hps_tb 0 22 E1hYO3Qz3dYlF6_9Jm@7n2
+!i122 32
+l42
+Z29 L19 180
+Z30 VDY>8H3O5zo=V1nfMzNj;71
+Z31 !s100 Ic:8f4Jd^gRT=Y^gbO57@3
+R15
+32
+R25
+!i10b 1
+R17
+R26
+R27
+!i113 0
+R20
+Esimon_dec
+Z32 w1652445742
+R8
+R9
+R10
+!i122 28
+R11
+Z33 8simon_dec.vhd
+Z34 Fsimon_dec.vhd
+l0
+L30 1
+ViETMo`EK6:SCNoW3z4QMB2
+!s100 Vae:0_273JX:CjMZ004nY3
+R15
+32
+R16
+!i10b 1
+R17
+Z35 !s90 -reportprogress|300|simon_dec.vhd|
+Z36 !s107 simon_dec.vhd|
+!i113 0
+R20
+Artl
+R8
+R9
+R10
+DEx4 work 9 simon_dec 0 22 iETMo`EK6:SCNoW3z4QMB2
+!i122 28
+l40
+L38 35
+V8`81:dBLmO^>o9^k3CRIF0
+!s100 hU5PWhM>[kbc`n5PP=bV03
+R15
+32
+R16
+!i10b 1
+R17
+R35
+R36
+!i113 0
+R20
+Esimon_subkey_calc
+Z37 w1652445516
+R8
+R9
+R10
+!i122 29
+R11
+Z38 8simon_subkey_calc.vhd
+Z39 Fsimon_subkey_calc.vhd
+l0
+L33 1
+VKSGol]^2CnEeKCMg7IbQi1
+!s100 GUm2Q7[2PHE77GL]<^feA0
+R15
+32
+R16
+!i10b 1
+R17
+Z40 !s90 -reportprogress|300|simon_subkey_calc.vhd|
+Z41 !s107 simon_subkey_calc.vhd|
+!i113 0
+R20
+Artl
+R8
+R9
+R10
+DEx4 work 17 simon_subkey_calc 0 22 KSGol]^2CnEeKCMg7IbQi1
+!i122 29
+l46
+L43 41
+VO0P?^CTl5oCz=42c0Yk1>1
+!s100 <Z<VCFZF^]5^ZS=Zemozb3
+R15
+32
+R16
+!i10b 1
+R17
+R40
+R41
+!i113 0
+R20
+Esimon_top
+Z42 w1652445718
+R9
+R10
+!i122 30
+R11
+Z43 8simon_top.vhd
+Z44 Fsimon_top.vhd
+l0
+L35 1
+VkkfIC1P=EF<e<U;A<4HAI1
+!s100 kS0nhThF?]0=hjbEVHE=d1
+R15
+32
+R16
+!i10b 1
+R17
+Z45 !s90 -reportprogress|300|simon_top.vhd|
+Z46 !s107 simon_top.vhd|
+!i113 0
+R20
+Astruct
+R9
+R10
+DEx4 work 9 simon_top 0 22 kkfIC1P=EF<e<U;A<4HAI1
+!i122 30
+l79
+L43 65
+Vl6adZbXaH?blVYJ`VG:W22
+!s100 ^E6]RSFCn2]kbQZ;Z2^im3
+R15
+32
+R16
+!i10b 1
+R17
+R45
+R46
+!i113 0
+R20
+Esimon_top_tb
+Z47 w1652529081
+R9
+R10
+!i122 17
+Z48 dC:/Users/Admin/Desktop/FPGA_NEW/Coursework/Simon_Cipher/Design_3_128_Bit_Hybrid/questasim_rtl_project
+Z49 8C:/Users/Admin/Desktop/FPGA_NEW/Coursework/Simon_Cipher/Design_3_128_Bit_Hybrid/questasim_rtl_project/simon_top_tb.vhd
+Z50 FC:/Users/Admin/Desktop/FPGA_NEW/Coursework/Simon_Cipher/Design_3_128_Bit_Hybrid/questasim_rtl_project/simon_top_tb.vhd
+l0
+R14
+Vn76`XhcT`29dMB`c;8[HC3
+!s100 SIb@lOzhmbKI79Y5Y?=B11
+R15
+32
+Z51 !s110 1652690962
+!i10b 1
+Z52 !s108 1652690962.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/Admin/Desktop/FPGA_NEW/Coursework/Simon_Cipher/Design_3_128_Bit_Hybrid/questasim_rtl_project/simon_top_tb.vhd|
+Z54 !s107 C:/Users/Admin/Desktop/FPGA_NEW/Coursework/Simon_Cipher/Design_3_128_Bit_Hybrid/questasim_rtl_project/simon_top_tb.vhd|
+!i113 0
+Z55 o-work work -2002 -explicit
+R20
+Atb
+DEx4 work 9 simon_top 0 22 N`]K>f>Hg730B[;Pl3bW_3
+R9
+R10
+DEx4 work 12 simon_top_tb 0 22 n76`XhcT`29dMB`c;8[HC3
+!i122 17
+l32
+L25 28
+V>D8A]N_WoeQdPS3jjF9Rd0
+!s100 akUomFJRaC@ZW@51emWmP2
+R15
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 0
+R55
+R20

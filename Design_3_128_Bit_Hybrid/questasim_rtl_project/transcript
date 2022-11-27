@@ -1,0 +1,71 @@
+do run.tcl
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:39:38 on Jun 07,2022
+# vcom -reportprogress 300 simon_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity simon_dec
+# -- Compiling architecture rtl of simon_dec
+# End time: 13:39:38 on Jun 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:39:38 on Jun 07,2022
+# vcom -reportprogress 300 simon_subkey_calc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity simon_subkey_calc
+# -- Compiling architecture rtl of simon_subkey_calc
+# End time: 13:39:38 on Jun 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:39:38 on Jun 07,2022
+# vcom -reportprogress 300 simon_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity simon_top
+# -- Compiling architecture struct of simon_top
+# End time: 13:39:38 on Jun 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:39:38 on Jun 07,2022
+# vcom -reportprogress 300 hps.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity hps
+# -- Compiling architecture rtl of hps
+# End time: 13:39:38 on Jun 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 13:39:38 on Jun 07,2022
+# vcom -reportprogress 300 hps_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity hps_tb
+# -- Compiling architecture tb of hps_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity hps
+# End time: 13:39:39 on Jun 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.hps_tb 
+# Start time: 13:39:39 on Jun 07,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.hps_tb(tb)#1
+# Loading work.hps(rtl)#1
+# Loading work.simon_top(struct)#1
+# Loading work.simon_subkey_calc(rtl)#1
+# Loading work.simon_dec(rtl)#1
+quit -sim
+# End time: 13:39:47 on Jun 07,2022, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 1

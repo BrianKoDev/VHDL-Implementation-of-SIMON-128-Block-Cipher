@@ -1,0 +1,58 @@
+do run.tcl
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 12:10:48 on Jun 07,2022
+# vcom -reportprogress 300 simon_enc_dec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity simon_enc_dec
+# -- Compiling architecture rtl of simon_enc_dec
+# End time: 12:10:48 on Jun 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 12:10:48 on Jun 07,2022
+# vcom -reportprogress 300 simon_subkey_calc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity simon_subkey_calc
+# -- Compiling architecture rtl of simon_subkey_calc
+# End time: 12:10:48 on Jun 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 12:10:48 on Jun 07,2022
+# vcom -reportprogress 300 simon_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity simon_top
+# -- Compiling architecture struct of simon_top
+# End time: 12:10:49 on Jun 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 12:10:49 on Jun 07,2022
+# vcom -reportprogress 300 simon_top_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity simon_top_tb
+# -- Compiling architecture tb of simon_top_tb
+# -- Loading entity simon_top
+# End time: 12:10:49 on Jun 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.simon_top_tb -voptargs="+acc" 
+# Start time: 12:10:49 on Jun 07,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simon_top_tb(tb)#1
+# Loading work.simon_top(struct)#1
+# Loading ieee.numeric_std(body)
+# Loading work.simon_subkey_calc(rtl)#1
+# Loading work.simon_enc_dec(rtl)#1
+quit -sim
+# End time: 12:10:58 on Jun 07,2022, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 1
