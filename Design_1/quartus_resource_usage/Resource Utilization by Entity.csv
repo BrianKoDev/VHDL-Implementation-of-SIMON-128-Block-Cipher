@@ -1,0 +1,4 @@
+Compilation Hierarchy Node,Combinational ALUTs,Dedicated Logic Registers,Block Memory Bits,DSP Blocks,Pins,Virtual Pins,Full Hierarchy Name,Entity Name,Library Name
+|simon_top,5647 (5519),5432 (5432),0,0,104,0,|simon_top,simon_top,work
+   |simon_enc_dec:simon_enc_dec_insc|,64 (64),0 (0),0,0,0,0,|simon_top|simon_enc_dec:simon_enc_dec_insc,simon_enc_dec,work
+   |simon_subkey_calc:simon_subkey_calc_insc|,64 (64),0 (0),0,0,0,0,|simon_top|simon_subkey_calc:simon_subkey_calc_insc,simon_subkey_calc,work

@@ -1,0 +1,216 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/intelFPGA_lite/21.1
+T_opt
+!s110 1652636180
+VAzk^3K1jm[RC7^C2n;2IP2
+Z2 04 12 2 work simon_top_tb tb 1
+=1-7c8ae112d5a8-62813a14-14a-1e1c
+Z3 !s124 OEM10U4 
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1653939747
+VdSMH2m_AzBVG:bUFjW:<G2
+R2
+=1-7c8ae112d5a8-62951e22-1be-1f10
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1653248165
+VPKc^;`ff?fgnRRX6hA5822
+R2
+=1-7c8ae112d5a8-628a90a5-85-eb4
+R3
+R4
+R5
+n@_opt2
+R6
+R1
+Esimon_enc_dec
+Z7 w1652439791
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 72
+Z11 dC:/Users/Admin/Desktop/FPGA/Coursework/Simon_Cipher/Design_1/questasim_rtl_project
+Z12 8simon_enc_dec.vhd
+Z13 Fsimon_enc_dec.vhd
+l0
+L32 1
+VPPVC]X<ZJ_?f=Y0TS?aSQ1
+!s100 z5QcXcU3oCIOo^ZE3A5Dm3
+Z14 OL;C;2021.2;73
+32
+Z15 !s110 1654605615
+!i10b 1
+Z16 !s108 1654605615.000000
+Z17 !s90 -reportprogress|300|simon_enc_dec.vhd|
+Z18 !s107 simon_enc_dec.vhd|
+!i113 0
+Z19 tExplicit 1 CvgOpt 0
+Artl
+R8
+R9
+R10
+DEx4 work 13 simon_enc_dec 0 22 PPVC]X<ZJ_?f=Y0TS?aSQ1
+!i122 72
+l42
+L41 24
+Vn>Z5?Xn[46NfaHW81cNWM1
+!s100 =?QMM5CdgH_IFCELN5VT31
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+Esimon_subkey_calc
+Z20 w1652439782
+R8
+R9
+R10
+!i122 73
+R11
+Z21 8simon_subkey_calc.vhd
+Z22 Fsimon_subkey_calc.vhd
+l0
+L33 1
+V30Mhff=RW9[KY9K[i36m<2
+!s100 bfG^>f[4FAm1@2SWbkJmU0
+R14
+32
+R15
+!i10b 1
+R16
+Z23 !s90 -reportprogress|300|simon_subkey_calc.vhd|
+Z24 !s107 simon_subkey_calc.vhd|
+!i113 0
+R19
+Artl
+R8
+R9
+R10
+DEx4 work 17 simon_subkey_calc 0 22 30Mhff=RW9[KY9K[i36m<2
+!i122 73
+l48
+L44 30
+V;I:ej3T4o;mG]Z_g2^n5U3
+!s100 =QS_oQH4dB3]=jW?MoQE;0
+R14
+32
+R15
+!i10b 1
+R16
+R23
+R24
+!i113 0
+R19
+Esimon_top
+Z25 w1652712316
+R9
+R10
+!i122 74
+R11
+Z26 8simon_top.vhd
+Z27 Fsimon_top.vhd
+l0
+L38 1
+VdIJloACG>mYKg8EdNCN`71
+!s100 C38NK:g_OBUZ_SVGA6Uhe0
+R14
+32
+Z28 !s110 1654605616
+!i10b 1
+Z29 !s108 1654605616.000000
+Z30 !s90 -reportprogress|300|simon_top.vhd|
+Z31 !s107 simon_top.vhd|
+!i113 0
+R19
+Astruct
+R9
+R10
+Z32 DEx4 work 9 simon_top 0 22 dIJloACG>mYKg8EdNCN`71
+!i122 74
+l122
+L53 365
+V@<e@NcShOICo0K454IV8k2
+!s100 TPc]`bX:<i]8Ybc>eO;9P0
+R14
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R19
+Esimon_top_tb
+Z33 w1652528588
+R9
+R10
+!i122 75
+R11
+Z34 8simon_top_tb.vhd
+Z35 Fsimon_top_tb.vhd
+l0
+L23 1
+V7a=;JDfQ8I8:K?MZD?6]O0
+!s100 b:fEF5W7MmJg9H6U]_?h<2
+R14
+32
+R28
+!i10b 1
+R29
+Z36 !s90 -reportprogress|300|simon_top_tb.vhd|
+Z37 !s107 simon_top_tb.vhd|
+!i113 0
+R19
+Atb
+R32
+R9
+R10
+Z38 DEx4 work 12 simon_top_tb 0 22 7a=;JDfQ8I8:K?MZD?6]O0
+!i122 75
+l47
+Z39 L26 232
+Z40 VSPFzOmDKQ9:zPFz1];m_M0
+Z41 !s100 hlm@3n^TF8PHHcB:20D3=3
+R14
+32
+R28
+!i10b 1
+R29
+R36
+R37
+!i113 0
+R19
