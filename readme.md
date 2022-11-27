@@ -1,5 +1,3 @@
-# Project Description
-This project includes various hardware implementation of SIMON cipher using FPGA and a hybrid solution involving encryption in software and decryption in hardware. 
 
 ## Abstract
 SIMON block cipher offers light weight encryption of 128 bits data, various hardware implementation of it using FPGA and a hybrid solution involving encryption in software and decryption in hardware. We will also discuss the design justifications, limitations and perform resource analysis on a development board with 5CSEMA5F31C6.
